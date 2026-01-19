@@ -1,6 +1,6 @@
 /* Popup logic for Problem Extractor Pro. */
 
-const API_BASE_URL = "http://localhost:8787";
+const API_BASE_URL = "https://problem-extractor-pro-chrome-extens.vercel.app/api";
 const FREE_LIMIT = 3;
 const HISTORY_LIMIT = 5;
 

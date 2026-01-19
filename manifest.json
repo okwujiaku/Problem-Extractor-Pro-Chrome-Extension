@@ -1,0 +1,14 @@
+{
+  "name": "Problem Extractor Pro",
+  "description": "Extracts problems, evidence, and startup ideas from Reddit threads and subreddits.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Problem Extractor Pro",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "scripting", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}

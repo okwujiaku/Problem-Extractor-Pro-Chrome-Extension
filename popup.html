@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Problem Extractor Pro</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <div>
+          <h1>Problem Extractor Pro</h1>
+          <p class="subtitle">Extract problems & startup ideas from Reddit.</p>
+        </div>
+        <div class="usage">
+          <span id="usageStatus">Usage: --</span>
+        </div>
+      </header>
+
+      <div class="actions">
+        <button id="extractBtn" class="primary">Extract Problems</button>
+        <div class="export">
+          <button id="exportCsvBtn" class="secondary" disabled>Export CSV</button>
+          <button id="exportMdBtn" class="secondary" disabled>Export Markdown</button>
+        </div>
+      </div>
+
+      <section class="status">
+        <p id="statusText">Ready when you are.</p>
+      </section>
+
+      <section id="results" class="results"></section>
+
+      <section class="history">
+        <h2>Recent History</h2>
+        <ul id="historyList"></ul>
+      </section>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
